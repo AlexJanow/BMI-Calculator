@@ -8,6 +8,7 @@ btn.addEventListener("click", () => {
     alert("input value");
   } else {
     result.innerHTML = weight.value / height.value ** 2;
+
     if (result.innerHTML < 18.5) {
       result.style.color = "#FF0000";
     } else if (result.innerHTML >= 18.5 && result.innerHTML < 25) {
